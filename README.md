@@ -36,7 +36,7 @@ docker ps
 
 When the container starts, just access:
 
-(http://192.168.99.100:5000)[http://192.168.99.100:5000] and you should see the responder from the echo server.
+[http://192.168.99.100:5000](http://192.168.99.100:5000) and you should see the responder from the echo server.
 
 * Your docker IP may vary.
 
@@ -54,4 +54,4 @@ export ECHO_SERVER_PORT=5000
 twistd --nodaemon --python=run_server.py
 ```
 
-Access: (http://localhost:5000)[http://localhost:5000] and you should see the responder from the echo server.
+Access: [http://localhost:5000](http://localhost:5000) and you should see the responder from the echo server.
