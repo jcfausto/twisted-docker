@@ -36,8 +36,9 @@ docker ps
 
 When the container starts, just access:
 
-(http://localhost:5000)[http://localhost:5000] and you should see the responder from the echo server.
+(http://192.168.99.100:5000)[http://192.168.99.100:5000] and you should see the responder from the echo server.
 
+* Your docker IP may vary.
 
 # Running locally
 
